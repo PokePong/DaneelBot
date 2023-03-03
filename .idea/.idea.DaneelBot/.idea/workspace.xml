@@ -4,19 +4,11 @@
     <projectFile>DaneelBot/DaneelBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Push projet on github">
-      <change afterPath="$PROJECT_DIR$/DaneelBot/Database/Collections/CandleCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaneelBot/Exchange/BinanceService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaneelBot/Exchange/ExchangeType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaneelBot/Models/Candle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaneelBot/Models/Timeframe.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaneelBot/symbols.txt" afterDir="false" />
+    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Add binance api, test database, download klines">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Database/Collections/UserCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Database/Collections/UserCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +91,7 @@
       <workItem from="1677596451584" duration="19993000" />
       <workItem from="1677769190559" duration="19739000" />
       <workItem from="1677791584041" duration="1516000" />
-      <workItem from="1677830839479" duration="16970000" />
+      <workItem from="1677830839479" duration="21747000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>
@@ -122,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677839164718</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add binance api, test database, download klines">
+      <created>1677874963251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677874963251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +134,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Push projet on github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push projet on github" />
+    <MESSAGE value="Add binance api, test database, download klines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add binance api, test database, download klines" />
   </component>
 </project>

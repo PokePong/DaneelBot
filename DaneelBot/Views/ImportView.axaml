@@ -1,8 +1,57 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="DaneelBot.Views.ImportView">
-    <StackPanel HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-        <TextBlock Text="Hi, I'm the import view!" Foreground="White" />
-    </StackPanel>
+    <Border Padding="0">
+        <StackPanel HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Orientation="Vertical">
+
+            <TextBlock Text="Echange"
+                       FontFamily="{StaticResource Montserrat}"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Margin="0, 0, 0, 10" />
+            <ComboBox
+                PlaceholderText="Sélectionner le fournisseur..."
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"
+                BorderBrush="LightGray"
+                BorderThickness="1"
+                Margin="5"
+                Width="300"
+                Items="{Binding ExchangesCollection}">
+            </ComboBox>
+
+            <TextBlock Text="Symbole"
+                       FontFamily="{StaticResource Montserrat}"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Margin="0, 30, 0, 10" />
+            <ComboBox
+                PlaceholderText="Sélectionner la paire..."
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Left"
+                BorderBrush="LightGray"
+                BorderThickness="1"
+                Margin="5"
+                Width="300"
+                Items="{Binding SymbolsCollection}">
+            </ComboBox>
+
+            <TextBlock Text="Date de départ"
+                       FontFamily="{StaticResource Montserrat}"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Margin="0, 30, 0, 10" />
+            <Viewbox Width="140" HorizontalAlignment="Left">
+                <Calendar SelectionMode="SingleDate"
+                          FontSize="5" />
+            </Viewbox>
+        </StackPanel>
+    </Border>
+
 </UserControl>

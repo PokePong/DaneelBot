@@ -3,6 +3,6 @@
              x:Class="DaneelBot.Views.DashboardView">
     <StackPanel HorizontalAlignment="Center"
                 VerticalAlignment="Center">
-        <TextBlock Text="{Binding MyNameProperty}" Foreground="White" />
+        <TextBlock Text="{Binding MyName}" Foreground="White" />
     </StackPanel>
 </UserControl>

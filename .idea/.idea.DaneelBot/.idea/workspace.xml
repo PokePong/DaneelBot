@@ -4,7 +4,20 @@
     <projectFile>DaneelBot/DaneelBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Push projet on github" />
+    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Push projet on github">
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Database/Collections/CandleCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Exchange/BinanceService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Exchange/ExchangeType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Models/Candle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Models/Timeframe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/symbols.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Database/Collections/UserCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Database/Collections/UserCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +99,7 @@
       <workItem from="1677596451584" duration="19993000" />
       <workItem from="1677769190559" duration="19739000" />
       <workItem from="1677791584041" duration="1516000" />
-      <workItem from="1677830839479" duration="8103000" />
+      <workItem from="1677830839479" duration="16970000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>

@@ -9,7 +9,8 @@ public class UserCollection : DaneelCollection<User> {
     protected override string CollectionName { get; } = "user";
 
     public async Task<List<User>> GetAllUsers() {
-        var res = await Collection.FindAsync(_ => true);
+        var filter = Builders<User>.Filter.Empty;
+        var res = await Collection.FindAsync(filter);
         return res.ToList();
     }
 

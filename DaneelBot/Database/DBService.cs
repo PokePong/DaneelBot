@@ -19,8 +19,13 @@ public class DBService : Service {
     protected override void DoInit() {
         Connect();
         RegisterCollection<UserCollection>(new UserCollection());
+        RegisterCollection<CandleCollection>(new CandleCollection());
     }
 
+    public C Get<C>() where C : DaneelCollection {
+        return (_collections[typeof(C)] as C)!;
+    }
+    
     private void Connect() {
         _client = new MongoClient(ClientIp);
         Database = _client.GetDatabase(DatabaseName);
@@ -32,9 +37,5 @@ public class DBService : Service {
         }
         
         _collections.Add(typeof(T), collection);
-    }
-
-    public C GetCollection<C>() where C : DaneelCollection {
-        return (_collections[typeof(C)] as C)!;
     }
 }

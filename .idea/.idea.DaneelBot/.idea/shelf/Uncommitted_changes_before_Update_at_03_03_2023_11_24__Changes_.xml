@@ -1,0 +1,834 @@
+﻿<changelist name="Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]" date="1677839079151" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 03/03/2023 11:24 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/Montserrat-VariableFont_wght.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Montserrat-VariableFont_wght.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/MongoDB.Driver.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/MongoDB.Driver.Core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Smokum-Regular.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Smokum-Regular.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/DaneelBot/v17/.futdcache.v2" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/.futdcache.v2" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/DaneelBot/v17/.suo" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/.suo" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-x64/native/libHarfBuzzSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Base.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Base.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/ProjectEvaluation/daneelbot.metadata.v5.1" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/daneelbot.metadata.v5.1" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/MongoDB.Bson.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/MongoDB.Bson.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/AWSSDK.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/AWSSDK.Core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/MongoDB.Driver.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/MongoDB.Driver.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Styling.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Styling.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libmongocrypt.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win7-x86/native/av_libglesv2.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/av_libglesv2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Controls.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Controls.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/DaneelBot.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/osx/native/libHarfBuzzSharp.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp.dylib" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/Fonts/TiltPrism-Regular.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/TiltPrism-Regular.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Tmds.DBus.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Tmds.DBus.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Splat.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Splat.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Input.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Input.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/DaneelBot/FileContentIndex/88db927f-f75d-424f-a5a6-661f91c51217.vsidx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/88db927f-f75d-424f-a5a6-661f91c51217.vsidx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Themes.Fluent.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Themes.Fluent.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Markup.Xaml.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Markup.Xaml.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/DnsClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DnsClient.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/AWSSDK.SecurityToken.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/AWSSDK.SecurityToken.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.DesignerSupport.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.DesignerSupport.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/Fonts/Montserrat-Regular.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Montserrat-Regular.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Markup.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Markup.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/MongoDB.Libmongocrypt.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/SharpCompress.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/SharpCompress.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/DynamicData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DynamicData.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libmongocrypt.dylib" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ReactiveUI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/ReactiveUI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Visuals.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Visuals.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-x64/native/libSkiaSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.FreeDesktop.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.FreeDesktop.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/Avalonia/original.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/original.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/DaneelBot/FileContentIndex/f4fd3ee7-6be2-4f19-86e1-161b94b239f5.vsidx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/f4fd3ee7-6be2-4f19-86e1-161b94b239f5.vsidx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Native.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Native.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Resources.Inputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Layout.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Layout.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Diagnostics.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Diagnostics.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.Bcl.AsyncInterfaces.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Controls.DataGrid.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Controls.DataGrid.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".vs/ProjectEvaluation/daneelbot.projects.v5.1" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/daneelbot.projects.v5.1" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/osx/native/libAvaloniaNative.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libAvaloniaNative.dylib" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.Win32.SystemEvents.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ZstdSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/ZstdSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Animation.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Animation.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/JetBrains.Annotations.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/JetBrains.Annotations.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-x64/native/libHarfBuzzSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/System.Drawing.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/System.Drawing.Common.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/MaterialDesign.Avalonia.PackIcon.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/MaterialDesign.Avalonia.PackIcon.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/mongocrypt.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/apphost.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Themes.Default.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Themes.Default.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp1.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/avalonia-logo.ico" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/avalonia-logo.ico" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.Win32.SystemEvents1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.OpenGL.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.OpenGL.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Remote.Protocol.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Remote.Protocol.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.MicroCom.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.MicroCom.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/SkiaSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/SkiaSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/DaneelBot.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/Avalonia/resources" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/resources" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Dialogs.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Dialogs.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Interactivity.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Interactivity.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/refint/DaneelBot.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/Fonts/Smokum-Regular.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Smokum-Regular1.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Skia.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Skia.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-arm/native/libHarfBuzzSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp2.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.Scripting.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-x86/native/libHarfBuzzSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Win32.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Win32.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Snappier.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Snappier.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp.dylib" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-arm64/native/av_libglesv2.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/av_libglesv21.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/HarfBuzzSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/HarfBuzzSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/DaneelBot.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/System.Drawing.Common1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libSkiaSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp1.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/Assets/Fonts/Roboto-Black.ttf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Roboto-Black.ttf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.Extensions.Logging.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Automatonymous.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Automatonymous.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win7-x64/native/av_libglesv2.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/av_libglesv22.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.ReactiveUI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.ReactiveUI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/System.Drawing.Common2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/ref/DaneelBot.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libHarfBuzzSharp3.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.Desktop.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.Desktop.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/System.Reactive.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/System.Reactive.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-arm64/native/libSkiaSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp2.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.X11.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.X11.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/Avalonia/original.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/original.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/Avalonia.DesktopRuntime.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Avalonia.DesktopRuntime.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/obj/Debug/net7.0/DaneelBot.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/DaneelBot3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.Scripting.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/runtimes/linux-arm/native/libSkiaSharp.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/libSkiaSharp3.so" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/GreenPipes.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/GreenPipes.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.CSharp.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="DaneelBot/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24_[Changes]/Microsoft.CodeAnalysis.resources12.dll" />
+  </binary>
+</changelist>

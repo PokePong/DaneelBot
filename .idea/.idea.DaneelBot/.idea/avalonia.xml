@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="DaneelBot/App.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Assets/Fonts.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Common/NavigationButton.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Common/RobotoFontFamily.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Fonts.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Views/DashboardView.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Views/FirstView.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Views/ImportView.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Views/MainWindow.axaml" value="DaneelBot/DaneelBot.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

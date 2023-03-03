@@ -1,0 +1,47 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:DaneelBot.Common"
+        xmlns:packIcon="clr-namespace:MaterialDesign.Avalonia.PackIcon;assembly=MaterialDesign.Avalonia.PackIcon">
+    <Design.PreviewWith>
+        <StackPanel Orientation="Vertical" Background="Black">
+            <controls:NavigationButton IconKind="ViewDashboardOutline" Label="Tableau de Bord" />
+            <controls:NavigationButton IconKind="DownloadCircleOutline" Label="Importer" />
+            <controls:NavigationButton IconKind="Microscope" Label="Back-Testing" />
+            <controls:NavigationButton IconKind="ViewComfy" Label="Mes Bots" />
+        </StackPanel>
+    </Design.PreviewWith>
+
+    <Style Selector="Label">
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style Selector="packIcon|PackIcon">
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style Selector="controls|NavigationButton">
+        <!-- Set Defaults -->
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Border Background="Transparent">
+                    <Button Padding="15, 5, 30, 5"
+                            Width="200"
+                            Background="Transparent"
+                            CornerRadius="0"
+                            Command="{TemplateBinding GoToCommand}">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <packIcon:PackIcon Kind="{TemplateBinding IconKind}"
+                                               Width="30"
+                                               Height="30"
+                                               VerticalAlignment="Center" />
+                            <Label Margin="10, 0, 0, 0"
+                                   Content="{TemplateBinding Label}"
+                                   VerticalAlignment="Center"
+                                   FontFamily="{StaticResource Montserrat}" />
+                        </StackPanel>
+                    </Button>
+                </Border>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+</Styles>

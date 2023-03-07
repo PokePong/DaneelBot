@@ -1,15 +1,12 @@
 ﻿using System;
 using DaneelBot.Exchange;
+using DaneelBot.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace DaneelBot.Models;
+namespace DaneelBot.Database.Dto;
 
-public class Candle {
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; }
-
+public class CandleDto : DtoModel {
     public DateTime Date { get; set; }
 
     public decimal Open { get; set; }
@@ -27,5 +24,4 @@ public class Candle {
     public ExchangeType Exchange { get; set; }
 
     public Timeframe Timeframe { get; set; }
-    
 }

@@ -2,13 +2,9 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace DaneelBot.Models;
+namespace DaneelBot.Database.Dto;
 
-public class User {
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; }
-
+public class UserDto : DtoModel {
     public string FirstName { get; set; }
 
     public string LastName { get; set; }

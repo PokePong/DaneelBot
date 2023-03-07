@@ -1,24 +1,24 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DaneelBot.Models;
+using DaneelBot.Database.Dto;
 using MongoDB.Driver;
 
 namespace DaneelBot.Database.Collections;
 
-public class CandleCollection : DaneelCollection<Candle> {
+public class CandleCollection : DaneelCollection<CandleDto> {
     protected override string CollectionName { get; } = "candle";
 
-    public async Task<List<Candle>> GetAllCandles() {
-        var filter = Builders<Candle>.Filter.Empty;
-        var res = await Collection.FindAsync<Candle>(filter);
+    public async Task<List<CandleDto>> GetAllCandles() {
+        var filter = Builders<CandleDto>.Filter.Empty;
+        var res = await Collection.FindAsync<CandleDto>(filter);
         return res.ToList();
     }
 
-    public Task CreateCandle(Candle candle) {
+    public Task CreateCandle(CandleDto candle) {
         return Collection.InsertOneAsync(candle);
     }
     
-    public Task CreateCandles(IEnumerable<Candle> candles) {
+    public Task CreateCandles(IEnumerable<CandleDto> candles) {
         return Collection.InsertManyAsync(candles);
     }
 

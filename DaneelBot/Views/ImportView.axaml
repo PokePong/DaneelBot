@@ -20,8 +20,10 @@
                 BorderBrush="LightGray"
                 BorderThickness="1"
                 Margin="5"
-                Width="300"
-                Items="{Binding ExchangesCollection}">
+                Width="300" 
+                x:Name="ExchangeComboBox"
+                Items="{Binding ExchangesCollection}"
+                SelectedIndex="{Binding SelectedExchangeIndex, Mode=TwoWay}">
             </ComboBox>
 
             <TextBlock Text="Symbole"
@@ -51,6 +53,9 @@
                 <Calendar SelectionMode="SingleDate"
                           FontSize="5" />
             </Viewbox>
+
+            <Button Margin="0, 10, 0, 0"
+                    Content="Importer" />
         </StackPanel>
     </Border>
 

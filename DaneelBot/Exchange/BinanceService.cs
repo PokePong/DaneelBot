@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Binance.Net.Clients;
 using Binance.Net.Enums;
+using DaneelBot.Database.Dto;
 using DaneelBot.Models;
 using DaneelBot.Utils;
 using MongoDB.Bson;
@@ -25,11 +26,11 @@ public class BinanceService : Service {
         _client = new BinanceClient();
     }
 
-    public async Task<IEnumerable<Candle>> DownloadCandles(string symbol, Timeframe timeframe, DateTime start, DateTime end) {
+    public async Task<IEnumerable<CandleDto>> DownloadCandles(string symbol, Timeframe timeframe, DateTime start, DateTime end) {
         var result =
             await _client.SpotApi.ExchangeData.GetKlinesAsync(symbol, ToBinanceInterval(timeframe), start, end, KlinesLimit);
         var binanceKlines = result.Data.ToList();
-        return binanceKlines.Select(i => new Candle {
+        return binanceKlines.Select(i => new CandleDto {
             Date = i.CloseTime,
             Open = i.OpenPrice,
             Close = i.ClosePrice,

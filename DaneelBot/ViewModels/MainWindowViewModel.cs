@@ -6,6 +6,7 @@ using System.Reactive.Linq;
 using System.Threading.Tasks;
 using DaneelBot.Database;
 using DaneelBot.Database.Collections;
+using DaneelBot.Database.Dto;
 using DaneelBot.Exchange;
 using DaneelBot.Models;
 using DaneelBot.Utils;
@@ -65,7 +66,7 @@ public class MainWindowViewModel : ReactiveObject, IScreen {
             await userCollection.UpdateUser(connectingUser);
         }
         else {
-            var user = new User() {
+            var user = new UserDto() {
                 FirstName = "Loïc",
                 LastName = "Besse",
                 Email = email,

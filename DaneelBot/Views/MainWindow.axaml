@@ -42,8 +42,10 @@
             <Rectangle Grid.Column="1" Grid.Row="0" Height="50" Fill="Orange" />
             <!-- Navigation panel -->
             <Rectangle Grid.Column="0" Grid.Row="1" Fill="Transparent" />
-            <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical">
-                <common:NavigationButton IconKind="ViewDashboardOutline" GoToCommand="{Binding GoToDashboard}" Label="Tableau de Bord"/>
+            <StackPanel Grid.Column="0" Grid.Row="1" 
+                        Orientation="Vertical" 
+                        VerticalAlignment="Top">
+                <common:NavigationButton Margin="0, 100, 0, 0" IconKind="ViewDashboardOutline" GoToCommand="{Binding GoToDashboard}" Label="Tableau de Bord"/>
                 <common:NavigationButton IconKind="DownloadCircleOutline" GoToCommand="{Binding GoToImport}" Label="Importer"/>
                 <common:NavigationButton IconKind="Microscope" Label="Back-Testing"/>
                 <common:NavigationButton IconKind="ViewComfy" Label="Mes Bots"/>

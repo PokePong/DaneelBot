@@ -4,11 +4,16 @@
     <projectFile>DaneelBot/DaneelBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Add binance api, test database, download klines">
+    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Core/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Core/AppViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99b5a07b42db4f73bd96829242cc71ec4fd400/28/28b0b452/PackIcon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/24d1947502a27e1b178958676743d3832a12729dde0cb7d2a232df462a9fa9/CurrentThreadScheduler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/421680e1613c12c2dd44baf2784517784574013d8a735c7bdc73ae709fdb92/IReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/52d767927d4d23c5e7e91248b48655291c2767f5cd270e8a17597e8a6075b6/ReactiveUserControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f946712d53de64ebc9e8364ed23dd583475ad214597168065db2e979d974/IReactiveNotifyPropertyChanged.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8cbc747927f7291da09d5b27c0781258578dd1fb63b490f1a759b140bdd9c550/ObjectSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/91a7fba6ec0dfde7a94de168ae3111552f61b1a89582a94c9a444be63d885/StyledElement.cs" root0="SKIP_HIGHLIGHTING" />
@@ -91,7 +98,10 @@
       <workItem from="1677596451584" duration="19993000" />
       <workItem from="1677769190559" duration="19739000" />
       <workItem from="1677791584041" duration="1516000" />
-      <workItem from="1677830839479" duration="21747000" />
+      <workItem from="1677830839479" duration="24883000" />
+      <workItem from="1677882993063" duration="250000" />
+      <workItem from="1678194326088" duration="2579000" />
+      <workItem from="1678299171598" duration="14411000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>
@@ -121,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677874963251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Begin import page">
+      <created>1677880913508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677880913508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refacto, add dto system to database">
+      <created>1678195016430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678195016430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +159,8 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Push projet on github" />
     <MESSAGE value="Add binance api, test database, download klines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add binance api, test database, download klines" />
+    <MESSAGE value="Begin import page" />
+    <MESSAGE value="Refacto, add dto system to database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refacto, add dto system to database" />
   </component>
 </project>

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Reactive.Linq;
 using Avalonia.Controls;
-using DynamicData.Binding;
 using ReactiveUI;
 
 namespace DaneelBot.ViewModels;
@@ -31,13 +29,24 @@ public class ImportPageViewModel : PageViewModel {
 
     #endregion
 
+    private string _selectedStartDate;
+    public string SelectedStartDate
+    {
+        get => _selectedStartDate;
+        set => this.RaiseAndSetIfChanged(ref _selectedStartDate, value);
+    }
+
+
     private int _selectedExchangeIndex;
+
     public int SelectedExchangeIndex {
         get => _selectedExchangeIndex;
         set => this.RaiseAndSetIfChanged(ref _selectedExchangeIndex, value);
     }
 
     public ImportPageViewModel(IScreen screen, int index) : base(screen, index) {
+        SelectedExchangeIndex = -1;
+        
         ExchangesCollection.Add("Binance");
         ExchangesCollection.Add("Forex");
         SymbolsCollection.Add("BTCUSDT");
@@ -45,10 +54,8 @@ public class ImportPageViewModel : PageViewModel {
         SymbolsCollection.Add("ADAUSDT");
         SymbolsCollection.Add("BNBUSDT");
         SymbolsCollection.Add("BTCBNB");
-        
+
         this.WhenAnyValue(x => x.SelectedExchangeIndex)
-            .Subscribe(i => {
-                Debug.WriteLine("Nouveau exchange ! " + SelectedExchangeIndex);
-            });
+            .Subscribe(i => { Debug.WriteLine("Nouveau exchange ! " + SelectedExchangeIndex); });
     }
 }

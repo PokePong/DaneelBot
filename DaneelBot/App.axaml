@@ -4,30 +4,30 @@
 
     <Application.Styles>
         <FluentTheme Mode="Light" />
+        <StyleInclude Source="avares://DaneelBot/Styles/WindowStyles.axaml" />
         <StyleInclude Source="avares://MaterialDesign.Avalonia.PackIcon/Assets/Generic.xaml" />
-        <StyleInclude Source="avares://Aura.UI.FluentTheme/AuraUI.xaml" />
     </Application.Styles>
     <Application.Resources>
         <FontFamily x:Key="Montserrat">/Assets/Fonts/Montserrat-Regular.ttf#Montserrat</FontFamily>
 
         <SolidColorBrush x:Key="Blue_Medium_03" Color="#2c7da0" Opacity="0.3"></SolidColorBrush>
         <SolidColorBrush x:Key="Blue_Medium_02" Color="#2c7da0" Opacity="0.2"></SolidColorBrush>
-        
+
         <SolidColorBrush x:Key="Blue_Dark" Color="#014f86" Opacity="1"></SolidColorBrush>
-        
+
         <SolidColorBrush x:Key="Blue_Deep_05" Color="#01497c" Opacity="0.5"></SolidColorBrush>
-        
+
         <SolidColorBrush x:Key="Blue_Flash" Color="#48bfe3"></SolidColorBrush>
-        
+
         <SolidColorBrush x:Key="Blue_Gray_Dark" Color="#001848"></SolidColorBrush>
-        
-        
+
+
         <SolidColorBrush x:Key="GreenMedium_03" Color="#449300" Opacity="0.3"></SolidColorBrush>
         <SolidColorBrush x:Key="GreenMedium_02" Color="#449300" Opacity="0.2"></SolidColorBrush>
-        
+
         <SolidColorBrush x:Key="GreenDark" Color="#114600"></SolidColorBrush>
         <SolidColorBrush x:Key="GreenDark_05" Color="#114600" Opacity="0.5"></SolidColorBrush>
-        
+
     </Application.Resources>
 
 </Application>

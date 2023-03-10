@@ -10,7 +10,6 @@ using DaneelBot.Database.Dto;
 using DaneelBot.Exchange;
 using DaneelBot.Models;
 using DaneelBot.Utils;
-using MongoDB.Driver;
 using ReactiveUI;
 
 namespace DaneelBot.ViewModels;
@@ -18,8 +17,7 @@ namespace DaneelBot.ViewModels;
 public class MainWindowViewModel : ReactiveObject, IScreen {
     public RoutingState Router { get; } = new RoutingState();
 
-    public ReactiveCommand<Unit, IRoutableViewModel> GoToDashboard { get; }
-    public ReactiveCommand<Unit, IRoutableViewModel> GoToImport { get; }
+    private ReactiveCommand<Unit, IRoutableViewModel>? GoToPageCommand { get; set; }
 
     private const int NbPage = 4;
     private int _currentPageIndex = -1;
@@ -31,9 +29,6 @@ public class MainWindowViewModel : ReactiveObject, IScreen {
 
         RegisterPage(dashboardView);
         RegisterPage(importView);
-
-        GoToDashboard = ReactiveCommand.CreateFromObservable(() => GoToPage(0));
-        GoToImport = ReactiveCommand.CreateFromObservable(() => GoToPage(1));
 
         TestDb();
         TestBinance();
@@ -75,6 +70,10 @@ public class MainWindowViewModel : ReactiveObject, IScreen {
             };
             await userCollection.CreateUser(user);
         }
+    }
+
+    public void RunToPage(int index) {
+        ReactiveCommand.CreateFromObservable(() => GoToPage(index)).Execute();
     }
 
     private IObservable<IRoutableViewModel> GoToPage(int index) {

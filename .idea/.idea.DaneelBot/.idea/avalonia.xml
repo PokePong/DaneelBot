@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
@@ -7,11 +7,19 @@
         <entry key="DaneelBot/Assets/Fonts.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Common/NavigationButton.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Common/RobotoFontFamily.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Controls/DesktopPage.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Controls/InteractiveContainer.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Controls/MyUserControl.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Controls/SideMenu.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Fonts.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Styles/Index.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Styles/WindowStyles.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Utils/TestStyle.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Views/DashboardView.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Views/FirstView.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Views/ImportView.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Views/MainWindow.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Views/TestWindow.axaml" value="DaneelBot/DaneelBot.csproj" />
       </map>
     </option>
   </component>

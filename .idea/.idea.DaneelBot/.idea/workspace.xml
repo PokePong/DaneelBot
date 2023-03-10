@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2023_11_24__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Core/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Core/AppViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/App.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Common/NavigationButton.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Common/NavigationButton.axaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Core/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/AppViewLocator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/DaneelBot.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/MainWindow.axaml.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +31,22 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99b5a07b42db4f73bd96829242cc71ec4fd400/28/28b0b452/PackIcon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/178e2a71efb192fa916d514f7c54f6a771a7ec79127dfbc13398afb24967d8/IRoutableViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/24d1947502a27e1b178958676743d3832a12729dde0cb7d2a232df462a9fa9/CurrentThreadScheduler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3fc08e292f47f62ab1f7f73d3ea699921ae256974fa4f8e87865ec4bb50f4/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/421680e1613c12c2dd44baf2784517784574013d8a735c7bdc73ae709fdb92/IReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/52d767927d4d23c5e7e91248b48655291c2767f5cd270e8a17597e8a6075b6/ReactiveUserControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6c44631413e09854d1d7f93e2a816863e54e4ba6f7b2279c1748d122158c8/MethodToCommandConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f946712d53de64ebc9e8364ed23dd583475ad214597168065db2e979d974/IReactiveNotifyPropertyChanged.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8cbc747927f7291da09d5b27c0781258578dd1fb63b490f1a759b140bdd9c550/ObjectSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/91a7fba6ec0dfde7a94de168ae3111552f61b1a89582a94c9a444be63d885/StyledElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/99e5f81af05f25f1844fea3f4f823c0b39259ef63d0b49e22b859abafd9f29a/FontFamily.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9e48c385a0f8c4d27705158a41832ed686216b07b40ba171e89b41411bcc4dc/RxApp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1d67714a4adf08d20abdf5b18da9c486b1d5ac0669e67352ec3c8999e12d495/ReactiveWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a3c6488c4b7bbbe69cfda43629ff542fa638a712e4b18b6123e8c3a882ed7a/Layoutable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a45696f9a5ff6cb1a62df8ddc1cced1fa76fd45c83396560d628148eb19862/RoutedEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7ff1ec62dc2803db984bf46f82ce0c0a3eedcebc8e4dc2b6c962586094e2c7/ReactiveCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e087c627f6d5992b2d4364b892f6ea1c1d81b8eaa0c5a47492ca6e655a3eb763/ToggleButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e8dcffb885f13e51dd5956b64711d7689d7e9ebaa36e4357153f96d1869b3f/InputElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f36724d2e12b56ff0d73dd63d47dd2212a2c78223d4a2b475d856c31ae8cd/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DaneelBot/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -48,23 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.22813688",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\loicb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\loicb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\loicb\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\loicb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\loicb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\loicb\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DaneelBot" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/DaneelBot/bin/Debug/net7.0/DaneelBot.exe" />
@@ -101,7 +114,12 @@
       <workItem from="1677830839479" duration="24883000" />
       <workItem from="1677882993063" duration="250000" />
       <workItem from="1678194326088" duration="2579000" />
-      <workItem from="1678299171598" duration="14411000" />
+      <workItem from="1678299171598" duration="14604000" />
+      <workItem from="1678317202810" duration="1843000" />
+      <workItem from="1678393874009" duration="834000" />
+      <workItem from="1678396373485" duration="3438000" />
+      <workItem from="1678399866742" duration="354000" />
+      <workItem from="1678439551509" duration="20244000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>
@@ -145,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678195016430</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Style in import page">
+      <created>1678315641955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678315641955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +186,7 @@
     <MESSAGE value="Add binance api, test database, download klines" />
     <MESSAGE value="Begin import page" />
     <MESSAGE value="Refacto, add dto system to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refacto, add dto system to database" />
+    <MESSAGE value="Style in import page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style in import page" />
   </component>
 </project>

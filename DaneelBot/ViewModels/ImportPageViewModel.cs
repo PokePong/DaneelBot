@@ -1,11 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Reactive;
 using System.Reactive.Linq;
 using System.Threading.Tasks;
+using DaneelBot.Database.Dto;
+using DaneelBot.Exchange;
 using DaneelBot.Models;
+using DaneelBot.Utils;
 using ReactiveUI;
 
 namespace DaneelBot.ViewModels;
@@ -124,8 +129,7 @@ public class ImportPageViewModel : PageViewModel {
     }
 
     private void UpdateCanImportValue() {
-        if (!string.IsNullOrEmpty(_importConfig.Exchange) && !string.IsNullOrEmpty(_importConfig.Symbol) &&
-            _importConfig.Start != null) {
+        if (!string.IsNullOrEmpty(_importConfig.Exchange) && !string.IsNullOrEmpty(_importConfig.Symbol)) {
             CanImport = true;
             return;
         }
@@ -142,18 +146,45 @@ public class ImportPageViewModel : PageViewModel {
     private IObservable<bool> RunImport() {
         Observable.StartAsync(async ct => {
             IsImporting = true;
-            while (DownloadProgressPerc < 100) {
-                await Task.Delay(500, ct);
-                DownloadProgressPerc += 10;
-            }
+
+            await TestImport(_importConfig);
 
             DownloadProgressPerc = 100;
-            await Task.Delay(500, ct);
+            await Task.Delay(200, ct);
+
             DownloadProgressPerc = 0;
             ResetImportConfig();
+
             IsImporting = false;
             return true;
-        }).ObserveOn(RxApp.MainThreadScheduler);
+        });
         return Observable.Empty<bool>();
+    }
+
+    private async Task TestImport(ImportConfig config) {
+        var _service = Services.Get<BinanceService>();
+
+        var start = config.Start;
+        var end = DateTime.Now;
+        var totalMinutes = (int)(end - start).TotalMinutes;
+
+        var res = new List<CandleDto>();
+        var done = false;
+        while (!done) {
+            if (res.Count != 0) {
+                start = res[^1].Date.AddMinutes(1);
+            }
+
+            var candles = await _service.DownloadCandles("BTCUSDT", Timeframe.MINUTE_1, start, end);
+            var candlesList = candles.ToList();
+            if (candlesList.Count == 0) {
+                done = true;
+            }
+            else {
+                res.AddRange(candlesList);
+                DownloadProgressPerc = (int)((float)res.Count / totalMinutes * 100);
+                await Task.Delay(50);
+            }
+        }
     }
 }

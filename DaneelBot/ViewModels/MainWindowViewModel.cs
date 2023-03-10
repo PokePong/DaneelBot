@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Reactive;
@@ -31,18 +32,22 @@ public class MainWindowViewModel : ReactiveObject, IScreen {
         RegisterPage(importView);
 
         TestDb();
-        TestBinance();
+        InitBinance();
     }
 
-    private async Task TestBinance() {
+    private async Task InitBinance() {
         var _service = Services.Get<BinanceService>();
-        var candleCollection = Services.Get<DBService>().Get<CandleCollection>();
+        var symbolCollection = Services.Get<DBService>().Get<SymbolCollection>();
 
-        var candles =
-            await _service.DownloadCandles("BTCUSDT", Timeframe.MINUTE_1, DateTime.Today.AddDays(-3), DateTime.Today);
+        var binanceSymbols = await _service.GetAllBinanceSymbols();
+        var symbols = await symbolCollection.GetAllSymbols(ExchangeType.BINANCE_SPOT);
 
-        await candleCollection.DeleteAllCandles();
-        await candleCollection.CreateCandles(candles);
+        if (binanceSymbols?.Count != symbols?.Count) {
+            await symbolCollection.CreateSymbols(binanceSymbols.Select(x => new SymbolDto() {
+                Code = x,
+                ExchangeType = ExchangeType.BINANCE_SPOT
+            }));
+        }
     }
 
     private async Task TestDb() {

@@ -4,11 +4,18 @@
     <projectFile>DaneelBot/DaneelBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Forget to push, work on import module">
+    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Bug fix">
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Database/Collections/SymbolCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaneelBot/Database/Dto/SymbolDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Database/DBService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Exchange/BinanceService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Exchange/BinanceService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Models/ImportConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Models/ImportConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/Models/SideMenuModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Models/SideMenuModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f36724d2e12b56ff0d73dd63d47dd2212a2c78223d4a2b475d856c31ae8cd/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/loicb/Documents/Projets/DaneelBot/DaneelBot/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/loicb/Documents/Projets/DaneelBot/DaneelBot/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/loicb/Documents/Projets/DaneelBot/DaneelBot/ViewModels/ImportPageViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DaneelBot/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -112,7 +120,7 @@
       <workItem from="1678393874009" duration="834000" />
       <workItem from="1678396373485" duration="3438000" />
       <workItem from="1678399866742" duration="354000" />
-      <workItem from="1678439551509" duration="33455000" />
+      <workItem from="1678439551509" duration="41622000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>
@@ -184,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678473432827</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bug fix">
+      <created>1678474539105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678474539105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +219,7 @@
     <MESSAGE value="Refacto and upgrade" />
     <MESSAGE value="Add ring progress bar" />
     <MESSAGE value="Forget to push, work on import module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forget to push, work on import module" />
+    <MESSAGE value="Bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
   </component>
 </project>

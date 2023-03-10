@@ -37,7 +37,7 @@
                    FontFamily="{StaticResource Montserrat}"
                    FontSize="20"
                    FontWeight="Bold" />
-            <Button x:Name="DateButton">
+            <Button>
                 <Button.Flyout>
                     <Flyout>
                         <Viewbox Width="200" Height="200" HorizontalAlignment="Left">
@@ -73,7 +73,6 @@
                     <Label Content="{Binding DownloadProgressPerc}" />
                     <Label Content=" %" />
                 </StackPanel>
-
             </controls:RingProgressBar>
         </Grid>
     </Grid>

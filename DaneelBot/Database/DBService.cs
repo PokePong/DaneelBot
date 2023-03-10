@@ -20,12 +20,13 @@ public class DBService : Service {
         Connect();
         RegisterCollection<UserCollection>(new UserCollection());
         RegisterCollection<CandleCollection>(new CandleCollection());
+        RegisterCollection<SymbolCollection>(new SymbolCollection());
     }
 
     public C Get<C>() where C : DaneelCollection {
         return (_collections[typeof(C)] as C)!;
     }
-    
+
     private void Connect() {
         _client = new MongoClient(ClientIp);
         Database = _client.GetDatabase(DatabaseName);
@@ -35,7 +36,7 @@ public class DBService : Service {
         if (_collections.ContainsKey(typeof(T))) {
             throw new ArgumentException("Collection already registered. Make sure the collection name is correct.");
         }
-        
+
         _collections.Add(typeof(T), collection);
     }
 }

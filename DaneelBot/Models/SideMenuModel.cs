@@ -38,7 +38,7 @@ public class SideMenuModel : ReactiveObject {
 
     public delegate void OnPageChangedEvent(object sender, int index);
 
-    public event OnPageChangedEvent OnPageChanged;
+    public event OnPageChangedEvent? OnPageChanged;
 
     public void ToggleSideMenu() {
         IsPaneOpen = !IsPaneOpen;

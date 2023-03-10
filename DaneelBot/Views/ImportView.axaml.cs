@@ -12,7 +12,6 @@ public partial class ImportView : ReactiveUserControl<ImportPageViewModel> {
     public ImportView() {
         this.WhenActivated(disposables => {
             var today = DateTime.Now;
-
             var calendar = this.FindControl<Calendar>("CalendarPicker");
 
             calendar.DisplayDateStart = today.AddYears(-4);

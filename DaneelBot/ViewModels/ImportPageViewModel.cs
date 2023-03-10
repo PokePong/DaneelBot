@@ -42,8 +42,16 @@ public class ImportPageViewModel : PageViewModel {
         set {
             this.RaiseAndSetIfChanged(ref _selectedStartDate, value);
             _importConfig.Start = value;
+            SelectedStartDateStringFormat = value.ToString("dd/MM/yyyy");
             UpdateCanImportValue();
         }
+    }
+
+    private string _selectedStartDateStringFormat;
+
+    public string SelectedStartDateStringFormat {
+        get => _selectedStartDateStringFormat;
+        set => this.RaiseAndSetIfChanged(ref _selectedStartDateStringFormat, value);
     }
 
     private int _selectedExchangeIndex;
@@ -52,7 +60,8 @@ public class ImportPageViewModel : PageViewModel {
         get => _selectedExchangeIndex;
         set {
             this.RaiseAndSetIfChanged(ref _selectedExchangeIndex, value);
-            if (value != -1) _importConfig.Exchange = ExchangesCollection[value];
+            _importConfig.Exchange = value != -1 ? ExchangesCollection[value] : null;
+
             UpdateCanImportValue();
         }
     }
@@ -63,13 +72,14 @@ public class ImportPageViewModel : PageViewModel {
         get => _selectedSymbolIndex;
         set {
             this.RaiseAndSetIfChanged(ref _selectedSymbolIndex, value);
-            if (value != -1) _importConfig.Symbol = SymbolsCollection[value];
+            _importConfig.Symbol = value != -1 ? SymbolsCollection[value] : null;
             UpdateCanImportValue();
         }
     }
 
     #endregion
 
+    #region Import State
 
     private bool _isImporting = false;
 
@@ -84,6 +94,8 @@ public class ImportPageViewModel : PageViewModel {
         get => _canImport;
         set => this.RaiseAndSetIfChanged(ref _canImport, value);
     }
+
+    #endregion
 
     private int _downloadProgressPerc;
 
@@ -100,8 +112,7 @@ public class ImportPageViewModel : PageViewModel {
 
         DoImportCommand = ReactiveCommand.CreateFromObservable(RunImport);
 
-        SelectedExchangeIndex = -1;
-        SelectedSymbolIndex = -1;
+        ResetImportConfig();
 
         ExchangesCollection.Add("Binance");
         ExchangesCollection.Add("Forex");
@@ -118,7 +129,14 @@ public class ImportPageViewModel : PageViewModel {
             CanImport = true;
             return;
         }
+
         CanImport = false;
+    }
+
+    private void ResetImportConfig() {
+        SelectedStartDate = DateTime.Today;
+        SelectedExchangeIndex = -1;
+        SelectedSymbolIndex = -1;
     }
 
     private IObservable<bool> RunImport() {
@@ -132,6 +150,7 @@ public class ImportPageViewModel : PageViewModel {
             DownloadProgressPerc = 100;
             await Task.Delay(500, ct);
             DownloadProgressPerc = 0;
+            ResetImportConfig();
             IsImporting = false;
             return true;
         }).ObserveOn(RxApp.MainThreadScheduler);

@@ -4,13 +4,9 @@
     <projectFile>DaneelBot/DaneelBot.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Add ring progress bar">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/avalonia.xml" afterDir="false" />
+    <list default="true" id="943a75a4-800f-4ca4-80af-844d04120977" name="Changes" comment="Forget to push, work on import module">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DaneelBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Controls/RingProgressBar.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Controls/RingProgressBar.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/ViewModels/ImportPageViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/DashboardView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DaneelBot/Views/ImportView.axaml.cs" afterDir="false" />
     </list>
@@ -43,6 +39,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e087c627f6d5992b2d4364b892f6ea1c1d81b8eaa0c5a47492ca6e655a3eb763/ToggleButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e8dcffb885f13e51dd5956b64711d7689d7e9ebaa36e4357153f96d1869b3f/InputElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f36724d2e12b56ff0d73dd63d47dd2212a2c78223d4a2b475d856c31ae8cd/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/loicb/Documents/Projets/DaneelBot/DaneelBot/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/loicb/Documents/Projets/DaneelBot/DaneelBot/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DaneelBot/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -115,7 +112,7 @@
       <workItem from="1678393874009" duration="834000" />
       <workItem from="1678396373485" duration="3438000" />
       <workItem from="1678399866742" duration="354000" />
-      <workItem from="1678439551509" duration="32488000" />
+      <workItem from="1678439551509" duration="33455000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677838793475</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678463578569</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Forget to push, work on import module">
+      <created>1678473432827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678473432827</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +203,7 @@
     <MESSAGE value="Style in import page" />
     <MESSAGE value="Refacto and upgrade" />
     <MESSAGE value="Add ring progress bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ring progress bar" />
+    <MESSAGE value="Forget to push, work on import module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forget to push, work on import module" />
   </component>
 </project>

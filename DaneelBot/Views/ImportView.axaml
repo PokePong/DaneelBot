@@ -51,17 +51,30 @@
                     <packIcon:PackIcon Kind="Calendar"
                                        Width="20"
                                        Height="20" />
-                    <Label Content="Date" />
+                    <Label Content="{Binding SelectedStartDateStringFormat}" />
                 </StackPanel>
             </Button>
-            <Button Content="Importer" 
-                    IsEnabled="{Binding CanImport}" 
-                    Command="{Binding DoImportCommand}"/>
+            <Button Content="Importer"
+                    IsEnabled="{Binding CanImport}"
+                    Command="{Binding DoImportCommand}" />
         </StackPanel>
         <Grid VerticalAlignment="Center"
               HorizontalAlignment="Center"
               IsVisible="{Binding IsImporting}">
-            <controls:RingProgressBar Value="{Binding DownloadProgressPerc}"/>
+            <controls:RingProgressBar Value="{Binding DownloadProgressPerc}">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel.Styles>
+                        <Style Selector="Label">
+                            <Setter Property="FontSize" Value="30" />
+                            <Setter Property="FontWeight" Value="Bold" />
+                            <Setter Property="FontFamily" Value="{StaticResource Montserrat}" />
+                        </Style>
+                    </StackPanel.Styles>
+                    <Label Content="{Binding DownloadProgressPerc}" />
+                    <Label Content=" %" />
+                </StackPanel>
+
+            </controls:RingProgressBar>
         </Grid>
     </Grid>
 </UserControl>

@@ -1,8 +1,9 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:DaneelBot.Controls"
              x:Class="DaneelBot.Views.DashboardView">
     <StackPanel HorizontalAlignment="Center"
                 VerticalAlignment="Center">
-        <TextBlock Text="{Binding MyName}" Foreground="White" />
+        <controls:RingProgressBar/>
     </StackPanel>
 </UserControl>

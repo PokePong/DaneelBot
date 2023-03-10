@@ -1,0 +1,52 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:DaneelBot.Controls"
+        xmlns:models="clr-namespace:DaneelBot.Models"
+        xmlns:reactiveUi="http://reactiveui.net"
+        xmlns:daneelBot="clr-namespace:DaneelBot"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="DaneelBot.Views.MainWindow"
+        Title="MainWindow">
+
+    <controls:InteractiveContainer>
+        <controls:DesktopPage>
+            <controls:SideMenu>
+                <controls:SideMenu.DataContext>
+                    <models:SideMenuModel OnPageChanged="SideMenuModel_OnPageChanged">
+                        <models:SideMenuModel.MenuItems>
+                            <models:SideMenuItem Icon="ViewDashboardOutline"
+                                                 Title="Tableau de Bord"
+                                                 Index="0" />
+                            <models:SideMenuItem Icon="DownloadCircleOutline"
+                                                 Title="Importer"
+                                                 Index="1" />
+                            <models:SideMenuItem Icon="Microscope"
+                                                 Title="Back-Testing"
+                                                 Index="2" />
+                            <models:SideMenuItem Icon="ViewComfy"
+                                                 Title="Mes Bots"
+                                                 Index="3" />
+                        </models:SideMenuModel.MenuItems>
+                        <models:SideMenuModel.PageContent>
+                            <reactiveUi:RoutedViewHost
+                                Router="{Binding Router, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
+                                PageTransition="{x:Null}">
+                                <reactiveUi:RoutedViewHost.DefaultContent>
+                                    <TextBlock Text="Default page"
+                                               Foreground="Black"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center" />
+                                </reactiveUi:RoutedViewHost.DefaultContent>
+                                <reactiveUi:RoutedViewHost.ViewLocator>
+                                    <daneelBot:AppViewLocator />
+                                </reactiveUi:RoutedViewHost.ViewLocator>
+                            </reactiveUi:RoutedViewHost>
+                        </models:SideMenuModel.PageContent>
+                    </models:SideMenuModel>
+                </controls:SideMenu.DataContext>
+            </controls:SideMenu>
+        </controls:DesktopPage>
+    </controls:InteractiveContainer>
+</Window>

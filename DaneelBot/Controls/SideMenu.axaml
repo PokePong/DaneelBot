@@ -1,0 +1,55 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:packIcon="clr-namespace:MaterialDesign.Avalonia.PackIcon;assembly=MaterialDesign.Avalonia.PackIcon"
+             xmlns:models="clr-namespace:DaneelBot.Models"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="DaneelBot.Controls.SideMenu">
+
+    <SplitView DisplayMode="CompactInline"
+               IsPaneOpen="{Binding IsPaneOpen}"
+               OpenPaneLength="220">
+        <SplitView.Pane>
+            <Grid Background="LightBlue">
+                <Button VerticalAlignment="Top"
+                        HorizontalAlignment="Right"
+                        Command="{Binding ToggleSideMenu}">
+                    <Grid>
+                        <packIcon:PackIcon Kind="ChevronLeft"
+                                           IsVisible="{Binding IsPaneOpen}" />
+                        <packIcon:PackIcon Kind="ChevronRight"
+                                           IsVisible="{Binding !IsPaneOpen}" />
+                    </Grid>
+                </Button>
+                <DockPanel VerticalAlignment="Center">
+                    <ItemsControl Items="{Binding MenuItems}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <RadioButton GroupName="MenuItemsGroup"
+                                             Width="200"
+                                             Command="{Binding DataContext.GoToPage, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}"
+                                             CommandParameter="{Binding Index}">
+                                    <Grid>
+                                        <DockPanel
+                                            IsVisible="{Binding DataContext.IsPaneOpen, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}">
+                                            <packIcon:PackIcon Kind="{Binding Icon}" />
+                                            <TextBlock Text="{Binding Title}" />
+                                        </DockPanel>
+                                        <DockPanel
+                                            IsVisible="{Binding !DataContext.IsPaneOpen, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type UserControl}}}">
+                                            <packIcon:PackIcon Kind="{Binding Icon}" />
+                                        </DockPanel>
+                                    </Grid>
+                                </RadioButton>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </DockPanel>
+            </Grid>
+        </SplitView.Pane>
+        <Grid Background="Transparent">
+            <ContentControl Content="{Binding PageContent}" />
+        </Grid>
+    </SplitView>
+</UserControl>

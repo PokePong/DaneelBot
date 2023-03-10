@@ -1,99 +1,43 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:packIcon="clr-namespace:MaterialDesign.Avalonia.PackIcon;assembly=MaterialDesign.Avalonia.PackIcon"
+             xmlns:controls="clr-namespace:DaneelBot.Controls"
              x:Class="DaneelBot.Views.ImportView">
-
-    <UserControl.Styles>
-        <Style Selector="ComboBox">
-            <Setter Property="Background" Value="{StaticResource Blue_Medium_03}" />
-            <Setter Property="BorderBrush" Value="{StaticResource Blue_Dark}" />
-            <Setter Property="BorderThickness" Value="1" />
-
-            <Setter Property="PlaceholderForeground" Value="Black" />
-            <Setter Property="Foreground" Value="{StaticResource Blue_Flash}" />
-
-            <Setter Property="Width" Value="250"></Setter>
-        </Style>
-
-        <!-- <Style Selector="Button"> -->
-        <!--     <Setter Property="Width" Value="250"></Setter> -->
-        <!-- </Style> -->
-
-    </UserControl.Styles>
-
-    <Grid Column="2" Row="4"
-          ColumnDefinitions="*, *"
-          RowDefinitions="*, *, *, *">
-        <StackPanel Grid.Column="0" Grid.Row="0"
-                    Width="300"
+    <Grid>
+        <!-- <Grid VerticalAlignment="Center" -->
+        <!--       HorizontalAlignment="Center" -->
+        <!--       IsVisible="{Binding !IsImporting}"> -->
+        <!--     <TextBlock Text="{Binding MyName}" DockPanel.Dock="Top"></TextBlock> -->
+        <!--     <Button Content="Importer" -->
+        <!--             Width="200" -->
+        <!--             Command="{Binding DoImportCommand}" -->
+        <!--             DockPanel.Dock="Left" /> -->
+        <!-- </Grid> -->
+        <StackPanel VerticalAlignment="Center"
                     HorizontalAlignment="Left"
-                    Orientation="Vertical">
-            <TextBlock Text="Echange"
-                       FontFamily="{StaticResource Montserrat}"
-                       FontSize="30"
-                       FontWeight="Bold"
-                       Margin="0, 0, 0, 10" />
-            <ComboBox
-                PlaceholderText="Sélectionner le fournisseur..."
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                VerticalContentAlignment="Center"
-                HorizontalContentAlignment="Left"
-                Margin="5"
-                x:Name="ExchangeComboBox"
-                Items="{Binding ExchangesCollection}"
-                SelectedIndex="{Binding SelectedExchangeIndex, Mode=TwoWay}">
-            </ComboBox>
-        </StackPanel>
-        <StackPanel Grid.Column="0" Grid.Row="1"
-                    HorizontalAlignment="Left"
-                    Orientation="Vertical">
-            <TextBlock Text="Symbole"
-                       FontFamily="{StaticResource Montserrat}"
-                       FontSize="30"
-                       FontWeight="Bold"
-                       Margin="0, 30, 0, 10" />
+                    Orientation="Vertical"
+                    IsVisible="{Binding !IsImporting}">
+            <Label Content="Echange"
+                   FontFamily="{StaticResource Montserrat}"
+                   FontSize="20"
+                   FontWeight="Bold" />
+            <ComboBox PlaceholderText="Sélectionner le fournisseur..."
+                      x:Name="ExchangeComboBox"
+                      Items="{Binding ExchangesCollection}"
+                      SelectedIndex="{Binding SelectedExchangeIndex, Mode=TwoWay}" />
+            <Label Content="Symbole"
+                   FontFamily="{StaticResource Montserrat}"
+                   FontSize="20"
+                   FontWeight="Bold" />
             <ComboBox
                 PlaceholderText="Sélectionner la paire..."
-                VerticalAlignment="Center"
-                HorizontalAlignment="Left"
-                VerticalContentAlignment="Center"
-                HorizontalContentAlignment="Left"
-                Margin="5"
-                Items="{Binding SymbolsCollection}">
-            </ComboBox>
-        </StackPanel>
-        <StackPanel Grid.Column="0" Grid.Row="2"
-                    HorizontalAlignment="Left"
-                    Orientation="Vertical">
-            <TextBlock Text="Date de départ"
-                       FontFamily="{StaticResource Montserrat}"
-                       FontSize="30"
-                       FontWeight="Bold"
-                       Margin="0, 30, 0, 10" />
-            <StackPanel.Styles>
-                <Style Selector="Button">
-                    <Setter Property="Background" Value="{StaticResource Blue_Medium_03}" />
-                    <Setter Property="BorderBrush" Value="{StaticResource Blue_Dark}" />
-                    <Setter Property="BorderThickness" Value="1" />
-                </Style>
-
-                <Style Selector="Button:pointerover /template/ ContentPresenter">
-                    <Setter Property="Background" Value="{StaticResource Blue_Medium_02}" />
-                    <Setter Property="BorderBrush" Value="{StaticResource Blue_Dark}"></Setter>
-                    <Setter Property="BorderThickness" Value="1"></Setter>
-                </Style>
-
-                <Style Selector="Button:pressed /template/ ContentPresenter">
-                    <Setter Property="Background" Value="{StaticResource Blue_Deep_05}" />
-                    <Setter Property="BorderBrush" Value="{StaticResource Blue_Dark}"></Setter>
-                    <Setter Property="BorderThickness" Value="1"></Setter>
-                </Style>
-            </StackPanel.Styles>
-            <Button x:Name="DateButton"
-                    Margin="0, 10, 0, 0"
-                    HorizontalContentAlignment="Center"
-                    Width="250">
+                SelectedIndex="{Binding SelectedSymbolIndex, Mode=TwoWay}"
+                Items="{Binding SymbolsCollection}" />
+            <Label Content="Date de départ"
+                   FontFamily="{StaticResource Montserrat}"
+                   FontSize="20"
+                   FontWeight="Bold" />
+            <Button x:Name="DateButton">
                 <Button.Flyout>
                     <Flyout>
                         <Viewbox Width="200" Height="200" HorizontalAlignment="Left">
@@ -106,35 +50,18 @@
                 <StackPanel Orientation="Horizontal">
                     <packIcon:PackIcon Kind="Calendar"
                                        Width="20"
-                                       Height="20"
-                                       Foreground="{StaticResource Blue_Flash}"
-                                       VerticalAlignment="Center" />
-                    <Label Content="{Binding SelectedStartDate}"
-                           Foreground="{StaticResource Blue_Flash}" />
+                                       Height="20" />
+                    <Label Content="Date" />
                 </StackPanel>
             </Button>
+            <Button Content="Importer" 
+                    IsEnabled="{Binding CanImport}" 
+                    Command="{Binding DoImportCommand}"/>
         </StackPanel>
-        <StackPanel Grid.Column="0" Grid.Row="3"
-                    HorizontalAlignment="Left"
-                    Orientation="Vertical">
-            <StackPanel.Styles>
-                <Style Selector="Button">
-                    <Setter Property="Background" Value="{StaticResource GreenMedium_03}"></Setter>
-                    <Setter Property="BorderBrush" Value="{StaticResource GreenDark}"></Setter>
-                    <Setter Property="BorderThickness" Value="1" />
-                    <Setter Property="Width" Value="250" />
-                </Style>
-
-                <Style Selector="Button:pointerover /template/ ContentPresenter">
-                    <Setter Property="Background" Value="{StaticResource GreenMedium_02}" />
-                    <Setter Property="BorderBrush" Value="{StaticResource GreenDark}" />
-                    <Setter Property="BorderThickness" Value="1" />
-                </Style>
-            </StackPanel.Styles>
-            <Button Margin="0, 10, 0, 0"
-                    HorizontalContentAlignment="Center">
-                <Label Content="Importer" Foreground="#4cd137"></Label>
-            </Button>
-        </StackPanel>
+        <Grid VerticalAlignment="Center"
+              HorizontalAlignment="Center"
+              IsVisible="{Binding IsImporting}">
+            <controls:RingProgressBar Value="{Binding DownloadProgressPerc}"/>
+        </Grid>
     </Grid>
 </UserControl>

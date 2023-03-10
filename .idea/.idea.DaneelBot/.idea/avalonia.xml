@@ -10,6 +10,7 @@
         <entry key="DaneelBot/Controls/DesktopPage.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Controls/InteractiveContainer.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Controls/MyUserControl.axaml" value="DaneelBot/DaneelBot.csproj" />
+        <entry key="DaneelBot/Controls/RingProgressBar.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Controls/SideMenu.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Fonts.axaml" value="DaneelBot/DaneelBot.csproj" />
         <entry key="DaneelBot/Styles/Index.axaml" value="DaneelBot/DaneelBot.csproj" />

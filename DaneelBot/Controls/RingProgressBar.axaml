@@ -16,7 +16,7 @@
                              StartAngle="0"
                              SweepAngle="360"
                              Stretch="None"
-                             Stroke="Gray"
+                             Stroke="LightGray"
                              StrokeThickness="{TemplateBinding StrokeSize}" />
                         <Arc Width="{TemplateBinding Width}"
                              Height="{TemplateBinding Height}"
@@ -28,8 +28,8 @@
                              SweepAngle="{TemplateBinding Value}">
                             <Arc.Stroke>
                                 <RadialGradientBrush>
-                                    <GradientStop Color="Blue" Offset="0.1" />
-                                    <GradientStop Color="Green" Offset="0.6" />
+                                    <GradientStop Color="Green" Offset="0.1" />
+                                    <GradientStop Color="LightGreen" Offset="0.6" />
                                 </RadialGradientBrush>
                             </Arc.Stroke>
                             <Arc.Transitions>

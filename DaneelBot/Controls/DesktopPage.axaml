@@ -1,0 +1,88 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:DaneelBot.Controls"
+             xmlns:packIcon="clr-namespace:MaterialDesign.Avalonia.PackIcon;assembly=MaterialDesign.Avalonia.PackIcon"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="DaneelBot.Controls.DesktopPage"
+             Classes="NakedWindow">
+    <UserControl.Styles>
+        <Style Selector="controls|DesktopPage">
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <DockPanel>
+                        <Border BorderBrush="Red"
+                                BorderThickness="0, 0, 0, 1.5"
+                                DockPanel.Dock="Top">
+                            <Grid RowDefinitions="Auto"
+                                  ColumnDefinitions="Auto,*,Auto">
+                                <Grid Grid.Row="0"
+                                      Background="Transparent"
+                                      IsHitTestVisible="False">
+                                    <packIcon:PackIcon Grid.Column="0" Grid.Row="0"
+                                                       Foreground="DarkBlue"
+                                                       Height="25"
+                                                       HorizontalAlignment="Left"
+                                                       IsHitTestVisible="False"
+                                                       Kind="LanguageHtml5"
+                                                       Margin="10"
+                                                       Width="25" />
+                                </Grid>
+                                <TextBlock Grid.Row="0" Grid.Column="1"
+                                           FontSize="20"
+                                           FontWeight="Light"
+                                           HorizontalAlignment="Center"
+                                           IsHitTestVisible="False"
+                                           Text="Daneel Bot"
+                                           VerticalAlignment="Center" />
+
+                                <!-- Window button -->
+                                <DockPanel Grid.Column="2"
+                                           HorizontalAlignment="Right">
+                                    <!--  Minimize button  -->
+                                    <Button
+                                        HorizontalContentAlignment="Center"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        Height="23"
+                                        IsVisible="True"
+                                        Padding="0"
+                                        Width="23">
+                                        <packIcon:PackIcon Kind="WindowMinimize"
+                                                           Height="14" />
+                                    </Button>
+                                    <!--  Minimize button  -->
+                                    <Button
+                                        HorizontalContentAlignment="Center"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        Height="23"
+                                        IsVisible="True"
+                                        Padding="0"
+                                        Width="23">
+                                        <packIcon:PackIcon Kind="WindowMaximize"
+                                                           Height="14" />
+                                    </Button>
+                                    <Button
+                                        HorizontalContentAlignment="Center"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        Height="23"
+                                        IsVisible="True"
+                                        Padding="0"
+                                        Width="23">
+                                        <packIcon:PackIcon Kind="CancelCircleOutline"
+                                                           Foreground="DarkRed"
+                                                           Height="14" />
+                                    </Button>
+                                </DockPanel>
+                            </Grid>
+                        </Border>
+                        <ContentControl Content="{TemplateBinding Content}" />
+                    </DockPanel>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+    </UserControl.Styles>
+</UserControl>

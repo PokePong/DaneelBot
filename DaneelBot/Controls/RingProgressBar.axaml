@@ -1,0 +1,52 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:DaneelBot.Controls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="DaneelBot.Controls.RingProgressBar">
+    <UserControl.Styles>
+        <Style Selector="controls|RingProgressBar">
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Grid>
+                        <!-- Pourtour -->
+                        <Arc Width="{TemplateBinding Width}"
+                             Height="{TemplateBinding Height}"
+                             StartAngle="0"
+                             SweepAngle="360"
+                             Stretch="None"
+                             Stroke="Gray"
+                             StrokeThickness="{TemplateBinding StrokeSize}" />
+                        <Arc Width="{TemplateBinding Width}"
+                             Height="{TemplateBinding Height}"
+                             StartAngle="270"
+                             Stretch="None"
+                             StrokeJoin="Round"
+                             StrokeLineCap="Round"
+                             StrokeThickness="{TemplateBinding StrokeSize}"
+                             SweepAngle="{TemplateBinding Value}">
+                            <Arc.Stroke>
+                                <RadialGradientBrush>
+                                    <GradientStop Color="Blue" Offset="0.1" />
+                                    <GradientStop Color="Green" Offset="0.6" />
+                                </RadialGradientBrush>
+                            </Arc.Stroke>
+                            <Arc.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Duration="0:0:0.8"
+                                                      Easing="CircularEaseOut"
+                                                      Property="SweepAngle" />
+                                </Transitions>
+                            </Arc.Transitions>
+                        </Arc>
+                        <ContentControl Content="{TemplateBinding Content}"
+                                        HorizontalContentAlignment="Center"
+                                        VerticalContentAlignment="Center"
+                                        Margin="{TemplateBinding StrokeSize}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+    </UserControl.Styles>
+</UserControl>
